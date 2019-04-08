@@ -1,0 +1,36 @@
+{
+  "name": "ra-data-aws-amplify",
+  "version": "0.1.0",
+  "description": "AWS amplify based GraphQL data provider for react-admin.",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "authors": [
+    "Dmytro Morozov"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/procoders/ra-aws-amplify#readme",
+  "bugs": {
+    "url": "https://github.com/procoders/ra-aws-amplify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/procoders/ra-aws-amplify.git"
+  },
+  "dependencies": {
+    "aws-amplify": "^1.1.22",
+    "aws-amplify-react": "^2.3.2",
+    "aws-appsync": "^1.7.2",
+    "aws-appsync-react": "^1.2.7"
+  },
+  "peerDependencies": {
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "graphql": "^14.1.1",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+
+  }
+}
