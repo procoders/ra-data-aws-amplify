@@ -1,4 +1,4 @@
-# ra-aws-amplify
+# ra-data-aws-amplify
 
 A GraphQL data provider for [react-admin](https://github.com/marmelab/react-admin/)
 built with [AWS Amplify](https://aws-amplify.github.io/docs/cli/graphql?sdk=js) and tailored to target a simple GraphQL implementation.
@@ -12,13 +12,13 @@ built with [AWS Amplify](https://aws-amplify.github.io/docs/cli/graphql?sdk=js) 
 Install with:
 
 ```sh
-npm install --save ra-aws-amplify
+npm install --save ra-data-aws-amplify
 ```
 
 or
 
 ```sh
-yarn add ra-aws-amplify
+yarn add ra-data-aws-amplify
 ```
 
 ## Usage
