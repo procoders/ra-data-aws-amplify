@@ -12,13 +12,13 @@ built with [AWS Amplify](https://aws-amplify.github.io/docs/cli/graphql?sdk=js) 
 Install with:
 
 ```sh
-npm install --save ra-aws-amplify
+npm install --save ra-data-aws-amplify
 ```
 
 or
 
 ```sh
-yarn add ra-aws-amplify
+yarn add ra-data-aws-amplify
 ```
 
 ## Usage
