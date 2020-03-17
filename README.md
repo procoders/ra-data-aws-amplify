@@ -26,12 +26,14 @@ yarn add ra-data-aws-amplify
 import awsconfig from './aws-exports';
 import * as queries from './graphql/queries.js'
 import * as mutations from './graphql/mutations.js'
-
-    componentDidMount() {
-      buildDataProvider({awsconfig, queries, mutations}) 
-            .then(dataProvider => this.setState({ dataProvider }))
-
-    }
+...
+componentDidMount() {
+    ...
+    buildDataProvider({awsconfig, queries, mutations}) 
+        .then(dataProvider => this.setState({ dataProvider }))
+    ...
+}
+...
 ```
 
 ## Contributing
